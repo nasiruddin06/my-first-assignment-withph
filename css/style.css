@@ -2,3 +2,84 @@
     margin: 0;
     padding: 0;
 }
+/* ===============banner css start ================ */
+.ban-container{
+    background-color: #fcffe1;
+}
+.banner{
+    height: 100vh;
+    width: 70%;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.banner-content{
+    width: 60%;
+}
+.banner-content h1{
+    font-size: 50px;
+    font-weight: 900;
+    margin-bottom: 20px;
+}
+.banner-content p{
+    color: rgb(71, 69, 69);
+    margin-bottom: 20px;
+}
+.primary-btn{
+    background-color: #E55473;
+    color: #fff;
+    padding: 15px 20px;
+    border: none;
+    border-radius: 5px;
+    text-transform: capitalize;
+}
+.banner-photo{
+    width: 40%;
+}
+.banner-photo img{
+    height: 500px;
+    padding-left: 40px;
+}
+
+/* ==============Banner css close ================ */
+
+
+/*============ feature section css started ============ */
+.feature-heading{
+    text-align: center;
+}
+.feature-heading h2{
+    font-weight: bold;
+    font-size: 30px;
+    margin-bottom: 20px;
+}
+.feature-heading p{
+    width: 30%;
+    margin: auto;
+    color: rgb(71, 69, 69);
+}
+.feature-product{
+    width: 70%;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 50px;
+    gap: 10px;
+}
+.product-img{
+    text-align: center;
+}
+.product-img img{
+    width: 300px;
+    height: 350px;
+    background-color: #D9EFF0;
+    border-radius: 50% 50% 0 0;
+    padding: 5px 5px 5px 0;
+}
+.product-img a{
+    display: block;
+    color: black;
+    padding: 15px 0;
+}
