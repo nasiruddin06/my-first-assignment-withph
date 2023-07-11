@@ -144,3 +144,35 @@
 }
 
 /* ===================hot deal css end======================= */
+
+/* ==================instagram css start===================== */
+.container-ins{
+    width: 70%;
+    margin: 20px auto;
+}
+.content-ins{
+    text-align: center;
+    margin-top: 30px;
+}
+.content-ins h2{
+    font-weight: bold;
+    font-size: 30px;
+    margin-bottom: 20px;
+}
+.content-ins p{
+    color: rgb(71, 69, 69); 
+    margin-bottom: 50px;
+}
+.photo{
+    display: flex;
+    align-items: center;
+    justify-content: space-around; 
+    gap: 10px;
+    margin-bottom: 120px;
+}
+.img-set{
+    width: 250px;
+    height: 300px;
+}
+
+/* ==================instagram css end ===================== */
