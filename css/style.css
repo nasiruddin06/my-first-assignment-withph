@@ -79,6 +79,7 @@ nav{
     border: none;
     border-radius: 5px;
     text-transform: capitalize;
+    cursor: pointer;
 }
 .banner-photo{
     width: 40%;
