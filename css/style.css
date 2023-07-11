@@ -18,6 +18,7 @@ nav{
     font-size: 60px;
     font-weight: bold;
     padding: 10px;
+    cursor: pointer;
 }
 
 .menu ul{
@@ -33,17 +34,17 @@ nav{
     border-radius: 5px;
     padding: 10px 20px;
     text-decoration: none;
-    background-color: #fff;
-    color: #E55473;
-    border: 1px solid #E55473;
+    border: 1px solid #fff;
+    color: #fff;
+    background-color: #E55473;
     display: block;
     width: 80px;
     transition: all 1s;
 }
 .menu ul li a:hover{
+    background-color: #fff;
+    color: #E55473;
     border: 1px solid #fff;
-    color: #fff;
-    background-color: #E55473;
 }
 
 /* ================ menubar css end ============= */
