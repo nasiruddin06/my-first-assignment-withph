@@ -29,7 +29,7 @@
 .primary-btn{
     background-color: #E55473;
     color: #fff;
-    padding: 15px 20px;
+    padding: 15px 25px;
     border: none;
     border-radius: 5px;
     text-transform: capitalize;
@@ -46,6 +46,7 @@
 
 
 /*============ feature section css started ============ */
+
 .feature-heading{
     text-align: center;
 }
@@ -85,6 +86,8 @@
 }
 /* ==============feature section css end============== */
 
+/* ===========services css started ============ */
+
 .service-container{
     width: 70%;
     display: flex;
@@ -103,3 +106,41 @@
 
 }
 
+/* ===========services css end============ */
+
+/* ==============hot deal css started=============== */
+
+.hot-container{
+    height: 100vh;
+    width: 70%;
+    margin: auto;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.hot-content{
+    margin: 0 50px;
+    padding: 30px;
+    text-align: center;
+}
+.hot-content h2{
+    font-weight: bold;
+    font-size: 30px;
+    margin-bottom: 20px;
+}
+.hot-content span{
+    color: #E55473;
+}
+.hot-content p{
+    color: rgb(71, 69, 69); 
+    margin-bottom: 20px;
+}
+.hot-photo{
+    padding: 30px;
+}
+.hot-photo img{
+    width: 300px;
+    height: 350px;
+}
+
+/* ===================hot deal css end======================= */
