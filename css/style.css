@@ -2,6 +2,48 @@
     margin: 0;
     padding: 0;
 }
+/* ================ menubar css start ============= */
+nav{
+    background-color: #E55473;
+}
+.nav-container{
+    width: 70%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: #fff;
+}
+.logo h1{
+    font-size: 60px;
+    font-weight: bold;
+    padding: 10px;
+}
+.menu ul{
+    list-style: none;
+    display: flex;
+}
+.menu ul li{
+    margin-right: 10px;
+}
+.menu ul li a {
+    text-align: center;
+    text-transform: capitalize;
+    border-radius: 5px;
+    padding: 10px 20px;
+    text-decoration: none;
+    background-color: #fff;
+    color: #E55473;
+    border: 1px solid #E55473;
+}
+.menu ul li a:hover{
+    border: 1px solid #fff;
+    color: #fff;
+    background-color: #E55473;
+}
+
+/* ================ menubar css end ============= */
+
 /* ===============banner css start ================ */
 .ban-container{
     background-color: #fcffe1;
@@ -205,3 +247,34 @@
 }
 
 /* =============  suscribe part css end =============== */
+
+/* ==============  footer css start hare ============= */
+.footer-container{
+    width: 100%;
+    height: 250px;
+    background-color: black;
+    color: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.footer-content{
+    width: 30%;
+    text-align: center;
+}
+.footer-content h2{
+    font-weight: bold;
+    font-size: 30px;
+    margin-bottom: 20px;
+}
+.footer-content span{
+    color: #E55473;  
+}
+.footer-content p{
+    color: rgb(153, 151, 151);
+    margin-bottom: 20px;
+}
+.footer-content small{
+    color: rgb(153, 151, 151);
+}
+/* ==============  footer css end hare ============= */
