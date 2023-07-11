@@ -83,3 +83,23 @@
     color: black;
     padding: 15px 0;
 }
+/* ==============feature section css end============== */
+
+.service-container{
+    width: 70%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin: 60px auto;
+    background-color: #D9EFF0;
+    padding: 50px 20px;
+    margin: 80px auto;
+}
+.services{
+    text-align: center;
+}
+.services h3{
+    color: rgb(116, 107, 107);
+
+}
+
