@@ -171,8 +171,37 @@
     margin-bottom: 120px;
 }
 .img-set{
-    width: 250px;
+    width: 230px;
     height: 300px;
 }
 
 /* ==================instagram css end ===================== */
+
+.suscribe-container{
+    background-image: url("../images/Rectangle\ 9.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    width: 70%;
+    height: 300px;
+    margin: 0 auto 120px;
+    text-align: center;
+}
+.suscribe-container h2{
+    font-weight: bold;
+    font-size: 30px;
+    padding: 80px 10px 15px;
+}
+.suscribe-container p{
+    color: rgb(71, 69, 69); 
+    margin-bottom: 30px;
+}
+.primary-input{
+    padding: 15px;
+    border-radius: 5px;
+    border: none;
+    margin-right: 5px;
+    width: 400px;
+}
+
+/* =============  suscribe part css end =============== */
