@@ -55,12 +55,13 @@ nav{
     background-color: #fcffe1;
 }
 .banner{
-    height: 100vh;
+    height: 80vh;
     width: 70%;
     margin: auto;
     display: flex;
     justify-content: center;
     align-items: center;
+    padding-top: 30px;
 }
 .banner-content{
     width: 60%;
