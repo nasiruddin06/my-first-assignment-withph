@@ -19,6 +19,7 @@ nav{
     font-weight: bold;
     padding: 10px;
 }
+
 .menu ul{
     list-style: none;
     display: flex;
@@ -35,6 +36,9 @@ nav{
     background-color: #fff;
     color: #E55473;
     border: 1px solid #E55473;
+    display: block;
+    width: 80px;
+    transition: all 1s;
 }
 .menu ul li a:hover{
     border: 1px solid #fff;
